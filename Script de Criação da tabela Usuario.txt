@@ -1,0 +1,12 @@
+Script de Criação da tabela.
+
+CREATE TABLE `usuario` (
+  `id` int(100) NOT NULL AUTO_INCREMENT,
+  `Nome` varchar(45) NOT NULL,
+  `Email` varchar(45) NOT NULL,
+  `Senha` varchar(45) NOT NULL,
+  `Ddd` int(100) NOT NULL,
+  `Numero` varchar(45) NOT NULL,
+  `Tipo` varchar(45) NOT NULL,
+  PRIMARY KEY (`id`)
+) ENGINE=InnoDB AUTO_INCREMENT=10 DEFAULT CHARSET=utf8;
